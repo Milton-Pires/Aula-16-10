@@ -7,7 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
     android:orientation="vertical"
-    android:layout_gravity="center_vertical">
+    android:layout_gravity="center_vertical"
+    android:background="#FDF4E3">
+
+
 
     <ImageView
         android:layout_width="200dp"

@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LoginActivity"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#FDF4E3">
     <ImageView
     android:layout_width="238dp"
     android:layout_height="216dp"
@@ -61,7 +62,8 @@
         android:layout_gravity="end"
         android:layout_marginTop="5dp"
         android:text="Esqueceu a senha?"
-        android:textSize="16sp"/>
+        android:textSize="16sp"
+        android:textColor="#ED3F27"/>
 
 
 
@@ -71,7 +73,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
-        android:backgroundTint="#1DA998"
+        android:backgroundTint="#134686"
         android:padding="15dp"
         android:text="entrar"
         android:textAllCaps="true"
@@ -85,7 +87,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="20sp"
-        android:backgroundTint="#F24545"
+        android:backgroundTint="#ED3F27"
         android:padding="15dp"
         android:text="criar nova conta"
         android:textAllCaps="true"
