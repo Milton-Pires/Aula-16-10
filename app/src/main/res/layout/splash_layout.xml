@@ -7,17 +7,30 @@
     android:layout_height="match_parent"
     tools:context=".SplashActivity"
     android:orientation="vertical"
-    android:layout_gravity="center_horizontal|center_vertical">
+    android:layout_gravity="center_vertical">
 
     <ImageView
         android:layout_width="200dp"
         android:layout_height="200dp"
-        android:src="#c4c4c4"/>
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="MyBike" />
+        android:text="MyBike"
+        android:textSize="43dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:indeterminate="true"
+        />
+
 
 
 </LinearLayout>
