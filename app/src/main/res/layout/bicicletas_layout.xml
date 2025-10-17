@@ -6,7 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Bicicletas_Activity">
+    tools:context=".Bicicletas_Activity"
+    android:background="#FDF4E3">
 
     <RelativeLayout
         android:layout_width="wrap_content"
@@ -15,15 +16,14 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:src="#000C8A" />
+            android:src="#134686" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
             android:text="BIKE APP"
-            android:textColor="#ffff"
+            android:textColor="#E6E2E2"
             android:textSize="32dp" />
 
         <ImageView

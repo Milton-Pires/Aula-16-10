@@ -10,25 +10,136 @@
 
     <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
+        android:layout_height="wrap_content">
 
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:src="#000C8A" />
+            android:src="#134686" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="5dp"
+            android:layout_centerInParent="true"
             android:text="BIKE APP"
-            android:textColor="#ffff"
+            android:textColor="#E6E2E2"
             android:textSize="32dp" />
 
     </RelativeLayout>
 
-    
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="413dp"
+            android:layout_height="60dp"
+            android:src="#FEB21A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="BICICLETAS"
+            android:textColor="#FDF4E3"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="413dp"
+            android:layout_height="60dp"
+            android:src="#FEB21A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="LOCAIS"
+            android:textColor="#FDF4E3"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="413dp"
+            android:layout_height="60dp"
+            android:src="#FEB21A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="RESERVAS"
+            android:textColor="#FDF4E3"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="413dp"
+            android:layout_height="60dp"
+            android:src="#FEB21A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="HORARIOS"
+            android:textColor="#FDF4E3"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="413dp"
+            android:layout_height="60dp"
+            android:src="#FEB21A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="PLANOS"
+            android:textColor="#FDF4E3"
+            android:textSize="32dp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:layout_width="413dp"
+            android:layout_height="60dp"
+            android:src="#FEB21A" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="S.A.C."
+            android:textColor="#FDF4E3"
+            android:textSize="32dp" />
+    </RelativeLayout>
 
 
 </LinearLayout>
